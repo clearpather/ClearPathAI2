@@ -5,18 +5,9 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/clearpather/ClearPathAI2.git
 git push -u origin main
-# Navigate to your project
 cd "/Users/sergeysopot/DECA Clear Pass"
-
-# Add all files
 git add .
-
-# Save everything
 git commit -m "Initial commit"
-
-# Connect to GitHub (replace YOUR_USERNAME with your GitHub username)
 git remote add origin https://github.com/YOUR_USERNAME/deca-clear-pass.git
-
-# Push everything
 git branch -M main
 git push -u origin main
